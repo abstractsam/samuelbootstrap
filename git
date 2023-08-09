@@ -1,7 +1,11 @@
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/abstractsam/samuelbootstrap.git
 git push -u origin main
 
+---after deployment---
+git add .
+git commit -m "first commit"
+it push -u origin main
